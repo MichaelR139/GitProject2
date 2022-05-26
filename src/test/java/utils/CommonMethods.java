@@ -80,7 +80,9 @@ public class CommonMethods extends PageInitializers {
         System.out.println(element.isDisplayed());
     }
 
-    public static void getText(WebElement element){
+    public static void getText(WebElement element)
+
+    {
         System.out.println(element.getText());
     }
     public  static String getMessage(WebElement element){

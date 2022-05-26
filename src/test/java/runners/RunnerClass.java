@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
         //it means the console output for cucumber test is having irrelevant information
         // when we set it to true, it simply removes all the irrelevant information
         monochrome = true,
-        tags="@excel"
+        tags="@test"
 
 
 )

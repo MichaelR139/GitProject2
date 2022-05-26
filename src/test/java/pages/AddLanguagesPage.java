@@ -29,6 +29,9 @@ public class AddLanguagesPage extends CommonMethods{
        @FindBy(id="btnSave")
        public WebElement saveBtn;
 
+       @FindBy(id="recordsListTable")
+       public WebElement listTable;
+
         public AddLanguagesPage() {
             PageFactory.initElements(driver, this);
 

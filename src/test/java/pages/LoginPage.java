@@ -18,6 +18,9 @@ public class LoginPage extends CommonMethods {
     @FindBy(xpath = "//span[@id='spanMessage']")
     public WebElement incorrectMsg;
 
+    @FindBy(id="welcome")
+    public WebElement welcomeMessage;
+
     public LoginPage() {
         PageFactory.initElements(driver, this);
 
